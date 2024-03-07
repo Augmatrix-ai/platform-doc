@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Augmatrix AI Studio](README.md)
+* [Platform Overview](README.md)
+* [Data store](data-store.md)
