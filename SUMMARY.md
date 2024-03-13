@@ -5,4 +5,3 @@
 * [Flow](flow.md)
 * [Annotation](annotation.md)
 * [MLOps](mlops.md)
-* [Custom Component](custom-component.md)
