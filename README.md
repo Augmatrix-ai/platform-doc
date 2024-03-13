@@ -1,25 +1,25 @@
 # Platform Overview
 
-Welcome to Augmatrix.io This page is your go-to guide if you are new to our system.
+Welcome to Augmatrix.io, This page is your guide if you are new to our system. \
+\
+Augmatrix.io simplifies AI use cases creation with a no-code, serverless platform and visual designer, speeding up development from idea to launch. It enhances security, scalability, and Observability
 
-The main challenge that any business faces when attempting to automate and scale key processes is the limitation of manual work. At Augmatrix.io, we provide a scalable solution that takes care of the manual work involved in your project, saving you time and money and allowing you to concentrate on the important aspects of your business.
+1. Customizable Use Cases:&#x20;
+   * Tailor your use-case to meet specific needs with pre-built building blocks, or create a custom block effortlessly using Augmatrix SDK.
+2. Secure and Scalable :&#x20;
+   * Embrace the power of serverless Technology, breaking down use-case into scalable, secure, observable and extensible building blocks.
+3. Rapid Prototype and Documentation&#x20;
+   * &#x20;Augmatrix Studio platform is equipped with a powerful visual tool, simplifying the design, modification, and understanding of serverless blocks. Visualize your architecture for efficient development and debugging.
+4. Access and Explore:&#x20;
+   * Get access to pre-built use cases, blocks and models right within the platform in a few clicks.
+5. Deploy and Integrate:&#x20;
+   * When you're ready to take your use cases live, deploy them seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
 
-The Augmatrix.io is more concerned and concentrated on the scalable, securable and reusable solutions to the customer to bring the new revolution of Intelligent Document processing with fewer efforts. We are mostly focused on Developers as well as Non-Developers. We are providing the pre-built block to use by any Non-developer, and for a developer we are providing the custom blocks to test and train and deploy the block.
+#### &#x20;Community Engagement
 
-This document outlines the various features and functionalities that we offer, providing you with the information you need to successfully perform your tasks. Please let us know if you have any questions or require further assistance.
+Join our expanding developer community and contribute to building extending building-blocks with Augmatrix SDK. Collaborate, contribute, and learn alongside like-minded professionals on an exciting journey of innovation and development.
 
-We mainly focused on these aspects to ensure the customer satisfaction
+\
 
-1.  Data privacy and security
 
-    1.1 Data-store
-2.  Core functionality
-
-    2.1 Apps or Project page \
-    2.2 Flow\
-    2.3 Annotation Store\
-    2.4 Refiner Page\
-    2.5 MLOps\
-    &#x20; 2.5.1 Model Training\
-    &#x20; 2.5.2 Model Deployment&#x20;
-3. Scalability\
+\

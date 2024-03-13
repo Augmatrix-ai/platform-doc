@@ -1,45 +1,62 @@
 # MLOps
 
-MLOps is a streamline process of the Model training and Model Deployment. From entire MLOps product you can experience the end-to-end feel of training of model, model analytics, model deployment, model monitoring, model testing can be expected from the MLOps product and also what ever the model end-points can be used in Workflow to automate the use case with the model end-point\
-A. **Model Training:**\
-It is Two-Step Journey Model Training on the Augmatrix platform is a user-friendly experience divided into two categories:
+### MLOps: Streamlining Model Training and Deployment
 
-1\. Base Model Training:\
-a. Users can easily select and train their desired model, guided by comprehensive documentation and utilizing allocated credits.
+MLOps is a streamlined process encompassing model training and deployment, ensuring end-to-end management of machine learning models. The Augmatrix platform provides a comprehensive suite of features for model training, analytics, deployment, monitoring, and testing.
 
-b. Prior to initiating the training process, users can also test the model within the platform itself.
+### A. Model Training
 
+Model training on the Augmatrix platform is divided into two categories for user-friendly experience:
 
+1. **Base Model Training**: Utilize the Model Explorer feature to select from various models tailored to different pipelines. Train and deploy your chosen model effortlessly.
+2. **Fine-Tuning of Trained Model**: Augmatrix supports fine-tuning of already trained models, enabling users to further optimize performance.
 
-2\.  **Fine-Tuning of Trained Model:**\
-a. For models that have already undergone training, the Augmatrix platform supports a fine-tuning process. This allows users to further refine and optimize their trained models for enhanced performance.\
-\
+### **Example Model Training**: Basic Text-classification Model Training
 
+1. Navigate to Model Explorer.
+2. Select the text-classification pipeline.
+3. Choose a model and initiate training.
+4. Provide a model name and select annotated data.
+5. Copy credentials and redirect to Google Colab.
+6. Complete the training process.
+7. View the trained model in the Model Catalogue.
+8. Access model metrics from the Model Catalogue.
 
+### B. Model Deployment
 
+Deploying machine learning models is crucial for making them accessible and usable. Augmatrix platform offers a user-friendly and secure environment for deployment, providing dedicated infrastructure to safeguard model data.
 
-This structured approach to Model Training on Augmatrix ensures user comprehension, offering a seamless journey from model selection to advanced fine-tuning.
+#### **User-Friendly Deployment Options**:
 
-&#x20;
+* **Cluster Configuration**: \
+  Configure computational resources.
+* **Computation Type**: \
+  Choose between CPU or GPU.
+* **Computation Size Selection**: \
+  Dynamically select computational size.
+* **POD Size Selection**: Flexibility with a range of pod sizes.
 
-B. **Model Deployment**
+**Scalability Options**:\
+**CPU-Based Scalability**: Auto-scales based on pod usage.\
+**Request-Based Scalability**: Scales based on incoming requests.
 
-Deploying a machine learning model is a crucial step in making it accessible and usable. Augmatrix platform provides a user-friendly and highly secure environment for model deployment. In this process, dedicated infrastructure is created to safeguard the user's model data.\
-User-Friendly Deployment Options:
+**Endpoint Selection**:\
+**Private Endpoint**: Enhanced security.\
+**Public Endpoint**: Balances security with accessibility.
 
-1. Cluster Configuration:\
-   User-Managed Cluster: Allows users to configure their own computational resources.
-2. Computation Type: Users can choose between CPU or GPU for their computational needs.
-3. Computation Size Selection: Dynamically select the computational size based on usage, ensuring a secure connection between the user's model and infrastructure.
-4. POD Size Selection: Provides flexibility with a range of pod sizes to fit seamlessly into the existing infrastructure.
-5. Scalability Options:
-   1. CPU-Based Scalability: Automatically scales based on pod usage when the CPU limit is reached, ensuring optimal performance.
-   2. Request-Based Scalability: Scales based on the number of incoming requests to the endpoint, ensuring responsiveness during high-demand periods.
-6. Endpoint Selection:
-   1. Private Endpoint: Offers enhanced security by limiting access to the endpoint within the platform.
-   2. Public Endpoint: Balances security with accessibility, allowing both platform and external access.
+#### **Deployment Process Summary**:
 
+The deployment process concludes with assigning an endpoint, integrated seamlessly into workflows, ensuring security and adaptability.
 
+### **Example Deployment**:
 
-**Deployment Process Summary:** \
-The deployment process concludes with the assignment of an endpoint. This endpoint is then seamlessly integrated into the workflow, facilitating the processing of data based on the chosen model. This user-centric approach ensures that the deployment is not only secure but also adaptable to varying computational and scalability needs.
+1. Trained Model-deployment
+   1. Access the Model Catalogue.
+   2. Select a trained model and click deploy.
+   3. Proceed to the deployment page.
+   4. Create infrastructure with given options.
+   5. Select cloud, processor type, and size.
+   6. Specify pod details, scalability type, and endpoint selection.
+   7. Click deploy to obtain the endpoint.
+
+With these steps, scalable deployment with an endpoint is achieved, ready to integrate within or outside the platform.
