@@ -60,3 +60,68 @@ sample data
     Examine the output of individual blocks.
 
 By following these steps, you'll effectively set up and run the email understanding workflow.
+
+### Pan-card Extraction Use-case
+
+In this example, we'll delve into the intricacies of the Pan Card extraction process. We'll elucidate each step of the workflow, detailing the configurations of individual blocks and the final output.&#x20;
+
+Moreover, we'll showcase how this flow can be adapted for extracting Aadhaar cards or similar documents.
+
+
+
+<figure><img src=".gitbook/assets/flow.jpg" alt=""><figcaption><p>Sample Work-flow image</p></figcaption></figure>
+
+1. **Input Configuration:** Begin by configuring the dataset you wish to process and execute the respective block.
+
+
+
+<figure><img src=".gitbook/assets/input (1).jpg" alt=""><figcaption></figcaption></figure>
+
+here, Pan-card is selected as the input to extract the data&#x20;
+
+2. **OCR (Optical Character Recognition) Block:** The OCR block extracts data from images provided by the input block. It outputs the extracted data in both JSON and text formats.
+
+
+
+<figure><img src=".gitbook/assets/ocr.jpg" alt=""><figcaption></figcaption></figure>
+
+3. **Rotate Block:** This block adjusts the angle of the card to ensure proper alignment for processing. It takes an image and OCR JSON as input to correct the orientation.
+
+<figure><img src=".gitbook/assets/rotate.jpeg" alt=""><figcaption></figcaption></figure>
+
+4. **Constant Block:** Containing fixed information of a reference image, this block serves as a benchmark for aligning input card images. It provides a standard reference for comparison
+
+
+
+<figure><img src=".gitbook/assets/constant-input.jpg" alt=""><figcaption></figcaption></figure>
+
+Here we've provided one sample reference image to extract
+
+5. **OCR (Constant Block):** Similar to the OCR block, this component processes the reference image provided by the Constant Block and produces JSON and text outputs.
+
+
+
+<figure><img src=".gitbook/assets/constant-ocr.jpg" alt=""><figcaption></figcaption></figure>
+
+6. **Rotate Block (Constant Block):** This block, like the previous Rotate Block, corrects the orientation of the reference image based on the OCR results obtained from the Constant Block.&#x20;
+
+
+
+<figure><img src=".gitbook/assets/constant-rotate.jpg" alt=""><figcaption></figcaption></figure>
+
+7. **Alignment Block:** Utilizing the data from the Constant Block, this component aligns the information extracted from input cards with the standard reference.
+8. **Annotation Block:** Primarily used for labeling data, the Annotation Block annotates the extracted information and facilitates the extraction of labeled data.
+
+
+
+<figure><img src=".gitbook/assets/annotation.jpg" alt=""><figcaption></figcaption></figure>
+
+9. **Output:** The final output encapsulates comprehensive information, including aligned data and labeled information, providing a cohesive overview of the extracted data.
+
+&#x20;
+
+<figure><img src=".gitbook/assets/output.jpg" alt=""><figcaption></figcaption></figure>
+
+**Conclusion:** By following this structured workflow and configuring each block appropriately, one can efficiently extract data from Pan Cards or similar documents. This adaptable approach can be extended to extract data from various document types, such as Aadhaar cards, with minor adjustments to the configurations.
+
+\
