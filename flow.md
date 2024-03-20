@@ -6,24 +6,63 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 
 ### Components
 
+
+
+<figure><img src=".gitbook/assets/workflow (1).jpg" alt=""><figcaption></figcaption></figure>
+
 * **Workspace**: This is where you drag and drop components from the component menu. Configure inputs using the editor menu and save or start the process of the block here.
 * **Component Menu**: Pre-built blocks are listed here for selection.
-* **Component Store**: Download components to the component menu from here.
+* **Component Store \[Market-place]** : Download components to the component menu from here.
 * **Editor Menu**: Make changes to the workspace as per your requirements.
 
-#### Functionalities
+### Crafting Your Workflow: A Step-by-Step Guide
 
-* **Save**: Preserve created components for future modification or processing.
-* **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
-* **RUN**: Run individual blocks one-by-one to perform specific functions.
-* **Undo**: Reverse the last user action in case of mistakes or changes of mind.
-* **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes.
-* **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
-* **Zoom In**: Enlarge displayed content for focusing on specific details.
-* **Fit**: Adjust displayed content to fit within the visible area of the screen or window.
-* **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
-* **DEPLOY**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
-* **Console**: CLI for live coding on the component level and executing live.
+#### The Art of Drag and Drop
+
+Move blocks from the Component store to the workspace with ease. It's all about matching the right components, like fitting puzzle pieces together based on their data types.
+
+#### Understanding Block Statuses
+
+1. Block status and Error:
+   1. &#x20;**Configuration Errors**: Think of these as alerts that something's not quite right with your setup.
+
+<figure><img src=".gitbook/assets/image.png" alt="" width="205"><figcaption></figcaption></figure>
+
+&#x20;        2\.  **Dataset-Level Errors**: These indicate issues within your data, but don't worry, not all is lost—some parts can still proceed.&#x20;
+
+<figure><img src=".gitbook/assets/image (1).png" alt="" width="205"><figcaption></figcaption></figure>
+
+&#x20;       3\.  **Success Indicators**: Green means go! Your block is correctly configured and your data is flowing smoothly.
+
+<figure><img src=".gitbook/assets/image (2).png" alt="" width="205"><figcaption></figcaption></figure>
+
+Connecting Blocks: The Right Fit\
+&#x20;         1\. **Correct Connection**: Just like matching socks, ensure the data types align for a perfect fit.
+
+<figure><img src=".gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+
+&#x20;         2\.  Incorrect connection: this means you've connected but issue with data type mismatch
+
+&#x20;          &#x20;
+
+<figure><img src=".gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
+
+Dive into Block Data
+
+Observe the block you're able to understand the data type ,if you hover into the connection or node point you're able to see the variables.&#x20;
+
+2. Editor menu: This menu various Functionalities here all the list.
+   1. **Save**: Preserve created components for future modification or processing.
+   2. **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
+   3. **RUN**: Run individual blocks one-by-one to perform specific functions.
+   4. **Undo**: Reverse the last user action in case of mistakes or changes of mind.
+   5. **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes.
+   6. **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
+   7. **Zoom In**: Enlarge displayed content for focusing on specific details.
+   8. **Fit**: Adjust displayed content to fit within the visible area of the screen or window.
+   9. **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
+   10. **DEPLOY**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
+   11. **Console**: CLI for live coding on the component level and executing live.
 
 ### Example Use Case: Customer Email Understanding
 
@@ -50,14 +89,33 @@ sample data
    Navigate to the component menu.
 6. **Drag and Drop**: \
    Drag and drop blocks to the workspace.
-7. **Configure Inputs**:\
+
+
+
+<figure><img src=".gitbook/assets/emailflow.jpg" alt=""><figcaption></figcaption></figure>
+
+1. **Configure Inputs**:\
    &#x20;Use the editor menu to configure data for the input block.
-8. **Connect Blocks**: \
+
+
+
+<figure><img src=".gitbook/assets/emailinput.jpg" alt=""><figcaption></figcaption></figure>
+
+1. **Connect Blocks**: \
    Connect input block to the GPT-extractor block.
-9. **Run All**: \
+
+
+
+<figure><img src=".gitbook/assets/emailgpt.jpg" alt=""><figcaption></figcaption></figure>
+
+1. **Run All**: \
    Click Run-All program to start the flow running sequentially.
-10. **Check Outputs**: \
-    Examine the output of individual blocks.
+2. **Check Outputs**: \
+   Examine the output of individual blocks.
+
+
+
+<figure><img src=".gitbook/assets/emailoutput.jpg" alt=""><figcaption></figcaption></figure>
 
 By following these steps, you'll effectively set up and run the email understanding workflow.
 
@@ -122,6 +180,6 @@ Here we've provided one sample reference image to extract
 
 <figure><img src=".gitbook/assets/output.jpg" alt=""><figcaption></figcaption></figure>
 
-**Conclusion:** By following this structured workflow and configuring each block appropriately, one can efficiently extract data from Pan Cards or similar documents. This adaptable approach can be extended to extract data from various document types, such as Aadhaar cards, with minor adjustments to the configurations.
+&#x20;By followingabove structured workflow and configuring each block appropriately, one can efficiently extract data from Pan Cards or similar documents. This adaptable approach can be extended to extract data from various document types, such as Aadhaar cards, with minor adjustments to the configurations.
 
 \
