@@ -8,11 +8,11 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 
 
 
-<figure><img src=".gitbook/assets/workflow (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/workflow (2).jpg" alt=""><figcaption></figcaption></figure>
 
 * **Workspace**: This is where you drag and drop components from the component menu. Configure inputs using the editor menu and save or start the process of the block here.
 * **Component Menu**: Pre-built blocks are listed here for selection.
-* **Component Store \[Market-place]** : Download components to the component menu from here.
+* **Marketplace** : Download components from marketplace to the component menu .
 * **Editor Menu**: Make changes to the workspace as per your requirements.
 
 ### Crafting Your Workflow: A Step-by-Step Guide
@@ -52,17 +52,22 @@ Dive into Block Data
 Observe the block you're able to understand the data type ,if you hover into the connection or node point you're able to see the variables.&#x20;
 
 2. Editor menu: This menu various Functionalities here all the list.
-   1. **Save**: Preserve created components for future modification or processing.
-   2. **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
-   3. **RUN**: Run individual blocks one-by-one to perform specific functions.
-   4. **Undo**: Reverse the last user action in case of mistakes or changes of mind.
-   5. **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes.
-   6. **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
-   7. **Zoom In**: Enlarge displayed content for focusing on specific details.
-   8. **Fit**: Adjust displayed content to fit within the visible area of the screen or window.
-   9. **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
-   10. **DEPLOY**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
-   11. **Console**: CLI for live coding on the component level and executing live.
+
+
+
+<figure><img src=".gitbook/assets/console.png" alt=""><figcaption></figcaption></figure>
+
+1. **Save**: Preserve created components for future modification or processing
+2. **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
+3. **Run** : Run individual blocks one-by-one to perform specific functions.
+4. **Undo**: Reverse the last user action in case of mistakes or changes of mind.
+5. **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes.
+6. **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
+7. **Zoom In**: Enlarge workflow for focusing on specific details.
+8. **Fit**: Adjust workflow to fit within the visible or reset to original size.&#x20;
+9. **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
+10. **Deploy**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
+11. **Console**: The Console lets you see the activity logs of each block in your workflow. This helps you track what each block is doing and if there are any issues. &#x20;
 
 ### Example Use Case: Customer Email Understanding
 
@@ -133,7 +138,7 @@ Moreover, we'll showcase how this flow can be adapted for extracting Aadhaar car
 
 
 
-<figure><img src=".gitbook/assets/input (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/paninput.jpg" alt=""><figcaption></figcaption></figure>
 
 here, Pan-card is selected as the input to extract the data&#x20;
 
@@ -145,7 +150,11 @@ here, Pan-card is selected as the input to extract the data&#x20;
 
 3. **Rotate Block:** This block adjusts the angle of the card to ensure proper alignment for processing. It takes an image and OCR JSON as input to correct the orientation.
 
-<figure><img src=".gitbook/assets/rotate.jpeg" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/panrotate.jpg" alt=""><figcaption></figcaption></figure>
+
+
 
 4. **Constant Block:** Containing fixed information of a reference image, this block serves as a benchmark for aligning input card images. It provides a standard reference for comparison
 
@@ -165,7 +174,7 @@ Here we've provided one sample reference image to extract
 
 
 
-<figure><img src=".gitbook/assets/constant-rotate.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/constantrotate.jpg" alt=""><figcaption></figcaption></figure>
 
 7. **Alignment Block:** Utilizing the data from the Constant Block, this component aligns the information extracted from input cards with the standard reference.
 8. **Annotation Block:** Primarily used for labeling data, the Annotation Block annotates the extracted information and facilitates the extraction of labeled data.
@@ -174,12 +183,12 @@ Here we've provided one sample reference image to extract
 
 <figure><img src=".gitbook/assets/annotation.jpg" alt=""><figcaption></figcaption></figure>
 
-9. **Output:** The final output encapsulates comprehensive information, including aligned data and labeled information, providing a cohesive overview of the extracted data.
+9. **Output:** The final output encapsulates comprehensive information, including aligned data and labelled information, providing a cohesive overview of the extracted data.
 
 &#x20;
 
-<figure><img src=".gitbook/assets/output.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/panoutput.jpg" alt=""><figcaption></figcaption></figure>
 
-&#x20;By followingabove structured workflow and configuring each block appropriately, one can efficiently extract data from Pan Cards or similar documents. This adaptable approach can be extended to extract data from various document types, such as Aadhaar cards, with minor adjustments to the configurations.
+&#x20;By following, the above structured workflow and configuring each block appropriately, one can efficiently extract data from Pan Cards or similar documents. This adaptable approach can be extended to extract data from various document types, such as Aadhaar cards, with minor adjustments to the configurations.
 
 \
