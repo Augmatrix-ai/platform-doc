@@ -32,12 +32,12 @@ Move blocks from the Component store to the workspace with ease. It's all about 
 
 <figure><img src=".gitbook/assets/image (1).png" alt="" width="205"><figcaption></figcaption></figure>
 
-&#x20;       3\.  **Success Indicators**: Green means go! Your block is correctly configured and your data is flowing smoothly.
+&#x20;       3\.  **Success Indicators**: this indicates Your block is correctly configured, and your data is flowing smoothly.
 
 <figure><img src=".gitbook/assets/image (2).png" alt="" width="205"><figcaption></figcaption></figure>
 
 Connecting Blocks: The Right Fit\
-&#x20;         1\. **Correct Connection**: Just like matching socks, ensure the data types align for a perfect fit.
+&#x20;         1\. **Correct Connection**: ensure  the data types align for a perfect fit.
 
 <figure><img src=".gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
