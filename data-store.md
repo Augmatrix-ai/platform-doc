@@ -16,16 +16,16 @@ Below are step-by-step configurations for each cloud storage option:
 
 ### **1. Amazon S3 Configuration with Augmatrix.io Platform**
 
-1. Go to the Data Manager page.
+1. Go to the Data Store page.
 2. Click on "Mount New Drive."
-3. Select "Store" as Amazon S3.
-4. Provide a name for the drive.
+3. Select "Amazon S3" as drive.
+4. Provide any name for the drive.
 
 #### Steps to Follow in AWS
 
 {% embed url="https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html" %}
 
-* Obtain the endpoint URL, access key, and secret key from your Amazon S3 bucket.
+* Obtain the endpoint URL, access key, secret key and Region from your Amazon S3 bucket.
   1. Create a bucket on Amazon S3.
   2. Copy the bucket's URL (remove the "https" part) for the endpoint section.
   3. Access IAM on Amazon and create access keys. Use the access and secret keys for Augmatrix platform.
@@ -47,17 +47,17 @@ Below are step-by-step configurations for each cloud storage option:
 ]
 ```
 
-5. After Providing Bucket name and Keys
-6. click Test after successful connection
-7. click Add Drive.
+5. After Providing Required details.&#x20;
+6. Click on Test after successful connection
+7. Click  on Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
 ### **2. Azure Storage Blob Configuration with Augmatrix.io Platform**
 
-1. Navigate to the Data Manager page.
+1. Navigate to the Data Store page.
 2. Click on "Mount New Drive."
-3. Select "Azure" as storage.
-4. Provide a name for the drive.
+3. Select  "Azure" as drive.
+4. Provide any name for the drive.
 
 **Steps-to-follow in Azure**
 
@@ -72,16 +72,17 @@ Below are step-by-step configurations for each cloud storage option:
 
 <figure><img src=".gitbook/assets/att_4_for_16384134.png" alt=""><figcaption><p>Azure images</p></figcaption></figure>
 
-5. After Providing Bucket name and Keys
+5. After Providing Account name and Keys
 6. click Test after successful connection
 7. click Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
 ### **3. Google Storage Configuration with Augmatrix.io Platform**
 
-1. Visit the Data Manager page.
+1. Visit the Data Store page.
 2. Click on "Mount New Drive."
-3. Provide a name for the drive (bucket name).
+3. Select Google Cloud as Drive
+4. Provide any name for the drive.
 
 **Steps-to-Follow Inside Google Cloud**
 
@@ -92,9 +93,9 @@ Below are step-by-step configurations for each cloud storage option:
 
 {% embed url="https://cloud.google.com/docs/authentication/api-keys" %}
 
-4. After Providing Bucket name and Keys
-5. click Test after successful connection
-6. click Add Drive.
-7. Drive is ready to upload dataset.&#x20;
+5. After Providing Bucket name and Keys
+6. click Test after successful connection
+7. click Add Drive.
+8. Drive is ready to upload dataset.&#x20;
 
 Follow these steps carefully to ensure seamless integration and secure handling of your data. For detailed instructions on creating buckets and obtaining keys, refer to the provided links.
