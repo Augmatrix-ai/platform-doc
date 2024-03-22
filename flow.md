@@ -6,7 +6,7 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 
 ### Components
 
-<figure><img src=".gitbook/assets/workspace.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Untitled design (2).jpg" alt=""><figcaption></figcaption></figure>
 
 * **Workspace**: This is where you drag and drop components from the component menu. Configure inputs using the editor menu and save or start the process of the block here.
 * **Component Menu**: Pre-built blocks are listed here for selection.
