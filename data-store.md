@@ -1,6 +1,6 @@
 # Data store
 
-## DATA PRIVACY AND SECURITY
+## Data Privacy and Security
 
 At Augmatrix.io, we prioritize data privacy and security, ensuring a safe environment for both the platform and its users. Here's how we maintain the highest level of security and privacy:
 
@@ -20,12 +20,37 @@ Below are step-by-step configurations for each cloud storage option:
 2. Click on "Mount New Drive."
 3. Select "Store" as Amazon S3.
 4. Provide a name for the drive.
-5. Obtain the endpoint URL, access key, and secret key from your Amazon S3 bucket.
-   * Create a bucket on Amazon S3.
-   * Copy the bucket's URL (remove the "https" part) for the endpoint section.
-   * Access IAM on Amazon and create access keys. Use the access and secret keys for Augmatrix platform.
-6. Set "Secret" to True and specify the region for the bucket.
-7. Configure bucket permissions by adding CORS code for data extraction to Augmatrix platform.
+
+#### Steps to Follow in AWS
+
+{% embed url="https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html" %}
+
+* Obtain the endpoint URL, access key, and secret key from your Amazon S3 bucket.
+  1. Create a bucket on Amazon S3.
+  2. Copy the bucket's URL (remove the "https" part) for the endpoint section.
+  3. Access IAM on Amazon and create access keys. Use the access and secret keys for Augmatrix platform.
+* Set "Secret" to True and specify the region for the bucket.
+* Configure bucket permissions by adding CORS code for data extraction to Augmatrix platform.
+
+```
+[    {  "AllowedOrigins": ["https://stage.augmatrix.ai"],
+
+        "AllowedMethods": ["GET", "PUT", "POST"],
+
+        "AllowedHeaders": ["*"],
+
+        "MaxAgeSeconds": 3000
+
+    }
+
+
+]
+```
+
+5. After Providing Bucket name and Keys
+6. click Test after successful connection
+7. click Add Drive.
+8. Drive is ready to upload dataset.&#x20;
 
 ### **2. Azure Storage Blob Configuration with Augmatrix.io Platform**
 
@@ -33,24 +58,43 @@ Below are step-by-step configurations for each cloud storage option:
 2. Click on "Mount New Drive."
 3. Select "Azure" as storage.
 4. Provide a name for the drive.
-5. Enter the storage account name and account key (connection string).
-   * Create a storage account on Azure.
-   * Inside the storage account, create a container.
-   * Obtain the account name and key from the Azure portal for Augmatrix platform.
+
+**Steps-to-follow in Azure**
+
+* Enter the storage account name and account key (connection string).
+* Visit azure portal&#x20;
+
+{% embed url="https://portal.azure.com/" %}
+
+* Create a storage account on Azure.
+* Inside the storage account, create a container.
+* Obtain the account name and key from the Azure portal for Augmatrix platform.
 
 <figure><img src=".gitbook/assets/att_4_for_16384134.png" alt=""><figcaption><p>Azure images</p></figcaption></figure>
+
+5. After Providing Bucket name and Keys
+6. click Test after successful connection
+7. click Add Drive.
+8. Drive is ready to upload dataset.&#x20;
 
 ### **3. Google Storage Configuration with Augmatrix.io Platform**
 
 1. Visit the Data Manager page.
 2. Click on "Mount New Drive."
 3. Provide a name for the drive (bucket name).
-4. Enter the account key obtained from the Google Cloud console.
+
+**Steps-to-Follow Inside Google Cloud**
+
+1. Enter the account key obtained from the Google Cloud console.
    * Create a bucket in Storage Management on Google Cloud.
    * Grant READ and WRITE permissions.
    * Generate an API key in the Google Cloud console and paste it into the Augmatrix.io platform.
 
 {% embed url="https://cloud.google.com/docs/authentication/api-keys" %}
 
-Follow these steps carefully to ensure seamless integration and secure handling of your data. For detailed instructions on creating buckets and obtaining keys, refer to the provided links.
+4. After Providing Bucket name and Keys
+5. click Test after successful connection
+6. click Add Drive.
+7. Drive is ready to upload dataset.&#x20;
 
+Follow these steps carefully to ensure seamless integration and secure handling of your data. For detailed instructions on creating buckets and obtaining keys, refer to the provided links.
