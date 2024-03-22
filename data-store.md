@@ -4,17 +4,21 @@
 
 At Augmatrix.io, we prioritize data privacy and security, ensuring a safe environment for both the platform and its users. Here's how we maintain the highest level of security and privacy:
 
-#### **1. Bring Your Own Data-Store**
+1. Bring your Own Datastore
+2. Audit logs
+3. Credential vault&#x20;
+
+### **1. Bring Your Own Datastore**
 
 We provide users with the flexibility to configure their own cloud storage, ensuring data security without the risk of leakage. Users can either test sample datasets with Augmatrix.io's default datastore or configure their preferred cloud storage solution. We support various cloud storage capabilities, including:
 
-1. **Amazon S3**
-2. **Azure Blob Storage**
-3. **Google Cloud Bucket**
+* **Amazon S3**
+* **Azure Blob Storage**
+* **Google Cloud Bucket**
 
 Below are step-by-step configurations for each cloud storage option:
 
-### **1. Amazon S3 Configuration with Augmatrix.io Platform**
+#### **1. Amazon S3 Configuration with Augmatrix.io Platform**
 
 1. Go to the Data Store page.
 2. Click on "Mount New Drive."
@@ -45,7 +49,7 @@ Below are step-by-step configurations for each cloud storage option:
 7. Click  on Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
-### **2. Azure Storage Blob Configuration with Augmatrix.io Platform**
+#### **2. Azure Storage Blob Configuration with Augmatrix.io Platform**
 
 1. Navigate to the Data Store page.
 2. Click on "Mount New Drive."
@@ -67,7 +71,7 @@ Below are step-by-step configurations for each cloud storage option:
 7. click Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
-### **3. Google Storage Configuration with Augmatrix.io Platform**
+#### **3. Google Storage Configuration with Augmatrix.io Platform**
 
 1. Visit the Data Store page.
 2. Click on "Mount New Drive."
@@ -87,3 +91,15 @@ Below are step-by-step configurations for each cloud storage option:
 8. Drive is ready to upload dataset.&#x20;
 
 Follow these steps carefully to ensure seamless integration and secure handling of your data. For detailed instructions on creating buckets and obtaining keys, refer to the provided links.
+
+### 2. Audit logs:&#x20;
+
+Audit logs will help to understand the events or actions that are captured and stored by the application for the purpose of tracking and monitoring user activity. It provides a way to review and investigate past actions in order to identify any security incidents or compliance violations.
+
+
+
+### 3. Credential Vault
+
+Credential vault keeps your important information like passwords and keys safe. It uses strong security methods to protect your data. Only people or apps that are allowed can get to it. This vault makes it easier to handle and keep your sensitive info secure, giving you less to worry about.&#x20;
+
+Our credential vault is a secure storage system that is used to manage sensitive information such as passwords, API keys, certificates, and other secrets.
