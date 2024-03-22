@@ -23,9 +23,7 @@ Below are step-by-step configurations for each cloud storage option:
 
 #### Steps to Follow in AWS
 
-{% embed url="https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html" %}
-
-* Obtain the endpoint URL, access key, secret key and Region from your Amazon S3 bucket.
+* Obtain the endpoint URL, access key, secret key and Region from your [Amazon S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html).
   1. Create a bucket on Amazon S3.
   2. Copy the bucket's URL (remove the "https" part) for the endpoint section.
   3. Access IAM on Amazon and create access keys. Use the access and secret keys for Augmatrix platform.
@@ -33,14 +31,11 @@ Below are step-by-step configurations for each cloud storage option:
 * Configure bucket permissions by adding CORS code for data extraction to Augmatrix platform.
 
 ```
-[    {  "AllowedOrigins": ["https://stage.augmatrix.ai"],
-
+[    
+   {    "AllowedOrigins": ["https://stage.augmatrix.ai"],
         "AllowedMethods": ["GET", "PUT", "POST"],
-
         "AllowedHeaders": ["*"],
-
         "MaxAgeSeconds": 3000
-
     }
 ]
 ```
@@ -60,10 +55,7 @@ Below are step-by-step configurations for each cloud storage option:
 **Steps-to-follow in Azure**
 
 * Enter the storage account name and account key (connection string).
-* Visit azure portal&#x20;
-
-{% embed url="https://portal.azure.com/" %}
-
+* Visit[ azure portal ](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal)
 * Create a storage account on Azure.
 * Inside the storage account, create a container.
 * Obtain the account name and key from the Azure portal for Augmatrix platform.
@@ -84,12 +76,10 @@ Below are step-by-step configurations for each cloud storage option:
 
 **Steps-to-Follow Inside Google Cloud**
 
-1. Enter the account key obtained from the Google Cloud console.
-   * Create a bucket in Storage Management on Google Cloud.
-   * Grant READ and WRITE permissions.
-   * Generate an API key in the Google Cloud console and paste it into the Augmatrix.io platform.
-
-{% embed url="https://cloud.google.com/docs/authentication/api-keys" %}
+* Enter the account key obtained from the Google Cloud console.
+  1. Create a bucket in Storage Management on Google Cloud.
+  2. Grant READ and WRITE permissions.
+  3. Generate an API key in the [Google Cloud console](https://cloud.google.com/docs/authentication/api-keys) and paste it into the Augmatrix.io platform.
 
 5. After Providing Bucket name and Keys
 6. click Test after successful connection

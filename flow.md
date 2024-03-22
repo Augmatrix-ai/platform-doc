@@ -22,17 +22,22 @@ Move blocks from the Component store to the workspace with ease. It's all about 
 #### Understanding Block Statuses
 
 1. Block status and Error:
-   1. **Configuration Errors**: Think of these as alerts that something's not quite right with your setup.
-
-<figure><img src=".gitbook/assets/image.png" alt="" width="205"><figcaption></figcaption></figure>
-
-2\. **Dataset-Level Errors**: These indicate issues within your data, but don't worry, not all is lost—some parts can still proceed.
+   * **Configuration Errors**: Think of these as alerts that something's not quite right with your setup.
 
 <figure><img src=".gitbook/assets/image (1).png" alt="" width="205"><figcaption></figcaption></figure>
 
-3\. **Success Indicators**: this indicates Your block is correctly configured, and your data is flowing smoothly.
+* &#x20;**Runtime Warning** : These indicate issues within your data, but don't worry, not all is lost—some parts can still proceed.
+
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="205"><figcaption></figcaption></figure>
+
+*   Runtime error: These indicate, the block ran without data.
+
+    <figure><img src=".gitbook/assets/image.png" alt="" width="205"><figcaption></figcaption></figure>
+* &#x20;**Success Indicators**: this indicates Your block is correctly configured, and your data is flowing smoothly.
 
 <figure><img src=".gitbook/assets/image (2).png" alt="" width="205"><figcaption></figcaption></figure>
+
+
 
 Connecting Blocks: The Right Fit\
 1\. **Correct Connection**: ensure the data types align for a perfect fit.
@@ -52,16 +57,18 @@ Observe the block you're able to understand the data type ,if you hover into the
 <figure><img src=".gitbook/assets/console.png" alt=""><figcaption></figcaption></figure>
 
 1. **Save**: Preserve created components for future modification or processing
-2. **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
-3. **Run** : Run individual blocks one-by-one to perform specific functions.
-4. **Undo**: Reverse the last user action in case of mistakes or changes of mind.
-5. **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes.
-6. **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
-7. **Zoom In**: Enlarge workflow for focusing on specific details.
-8. **Fit**: Adjust workflow to fit within the visible or reset to original size.
-9. **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
-10. **Deploy**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
-11. **Console**: The Console lets you see the activity logs of each block in your workflow. This helps you track what each block is doing and if there are any issues.
+2. **Run** : Run individual blocks one-by-one to perform specific functions.
+3. **Undo**: Reverse the last user action in case of mistakes or changes of mind.
+4. **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
+5. Notification:  it contains product updates, Workflow Notifications and etc.&#x20;
+6. Menu:  In this menu you can see these options.
+   1. **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
+   2. **Zoom In**: Enlarge workflow for focusing on specific details.
+   3. **Fit**: Adjust workflow to fit within the visible or reset to original size.
+   4. **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
+   5. **Deploy**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
+   6. **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes
+   7. **Console**: The Console lets you see the activity logs of each block in your workflow. This helps you track what each block is doing and if there are any issues.
 
 ### Example Use Case: Customer Email Understanding
 

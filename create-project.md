@@ -1,6 +1,6 @@
-# Apps
+# Create Project
 
-In this section, you are able to create a project  to automation process.
+In this section, you are able to create a project  to automation process. and modify workflows.&#x20;
 
 1. Go to the "Projects" page.
 2. Click on "Create new project."
