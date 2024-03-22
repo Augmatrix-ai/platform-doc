@@ -42,8 +42,6 @@ Below are step-by-step configurations for each cloud storage option:
         "MaxAgeSeconds": 3000
 
     }
-
-
 ]
 ```
 
