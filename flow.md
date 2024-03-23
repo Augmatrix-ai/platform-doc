@@ -67,15 +67,15 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 * **Run** : Run individual blocks one-by-one to perform specific functions.
 * **Undo**: Reverse the last user action in case of mistakes or changes of mind.
 * **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
-* Notification:  it contains product updates, Workflow Notifications etc.&#x20;
-* Menu:  In this menu you can see these options.
-  1. **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
-  2. **Zoom In**: Enlarge workflow for focusing on specific details.
-  3. **Fit**: Adjust workflow to fit within the visible or reset to original size.
-  4. **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
-  5. **Deploy**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
-  6. **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes
-  7. **Console**: The Console lets you see the activity logs of each block in your workflow. This helps you track what each block is doing and if there are any issues.
+* **Notification**:  it contains product updates, Workflow Notifications etc.&#x20;
+* **Menu:**  In this menu you can see these options.
+* **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
+* **Zoom In**: Enlarge workflow for focusing on specific details.
+* **Fit**: Adjust workflow to fit within the visible or reset to original size.
+* **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
+* **Deploy**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
+* **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes
+* **Console**: The Console lets you see the activity logs of each block in your workflow. This helps you track what each block is doing and if there are any issues.
 
 ### Example Use Case: Customer Email Understanding
 
