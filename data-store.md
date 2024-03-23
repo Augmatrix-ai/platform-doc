@@ -1,31 +1,32 @@
-# Data store
+# Dataset Hub
 
 ## Data Privacy and Security
 
-At Augmatrix.io, we prioritize data privacy and security, ensuring a safe environment for both the platform and its users. Here's how we maintain the highest level of security and privacy:
+At Augmatrix.io, we prioritize data privacy and security, ensuring a safe environment for both the platform and its users. Here's how we maintain the highest level of security and privacy.
 
-1. Bring your Own Datastore
-2. Audit logs
-3. Credential vault&#x20;
+1. Bring your Own Datastore.
+2. Audit logs.
+3. Credential vault.
 
-### **1. Bring Your Own Datastore**
+### **1. Bring Your Own Datastore:**
 
-We provide users with the flexibility to configure their own cloud storage, ensuring data security without the risk of leakage. Users can either test sample datasets with Augmatrix.io's default datastore or configure their preferred cloud storage solution. We support various cloud storage capabilities, including:
+We provide users with the flexibility to configure your own cloud storage, ensuring data security without the risk of leakage. Users can either test sample datasets with Augmatrix.io's default datastore or configure your preferred cloud storage solution. We support various cloud storage capabilities, including.
 
-* **Amazon S3**
-* **Azure Blob Storage**
-* **Google Cloud Bucket**
+* **Amazon S3.**
+* **Azure Blob Storage.**
+* **Google Cloud Bucket.**
 
 Below are step-by-step configurations for each cloud storage option:
 
-#### **1. Amazon S3 Configuration with Augmatrix.io Platform**
+#### **1. Let's Configure Amazon S3 with Augmatrix**&#x20;
 
-1. Go to the Data Store page.
-2. Click on "Mount New Drive."
-3. Select "Amazon S3" as drive.
-4. Provide any name for the drive.
+1. Go to Augmatrix platform.&#x20;
+2. Go to the Data Store page.
+3. Click on "Mount New Drive."
+4. Select "Amazon S3" as drive.
+5. Provide any name for the drive.
 
-#### Steps to Follow in AWS
+#### Steps to Follow in AWS:
 
 * Obtain the endpoint URL, access key, secret key and Region from your [Amazon S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-bucket-key.html).
   1. Create a bucket on Amazon S3.
@@ -49,44 +50,46 @@ Below are step-by-step configurations for each cloud storage option:
 7. Click  on Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
-#### **2. Azure Storage Blob Configuration with Augmatrix.io Platform**
+#### **2. Let's configure Azure Blob Storage with Augmatrix**
 
-1. Navigate to the Data Store page.
-2. Click on "Mount New Drive."
-3. Select  "Azure" as drive.
-4. Provide any name for the drive.
+1. go the Augmatrix platform.
+2. Navigate to the Data Store page.
+3. Click on "Mount New Drive."
+4. Select  "Azure" as drive.
+5. Provide any name for the drive.
 
-**Steps-to-follow in Azure**
+**Steps-to-follow in Azure:**
 
 * Enter the storage account name and account key (connection string).
-* Visit[ azure portal ](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal)
+* Visit[ azure portal](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal).
 * Create a storage account on Azure.
 * Inside the storage account, create a container.
 * Obtain the account name and key from the Azure portal for Augmatrix platform.
 
 <figure><img src=".gitbook/assets/att_4_for_16384134.png" alt=""><figcaption><p>Azure images</p></figcaption></figure>
 
-5. After Providing Account name and Keys
-6. click Test after successful connection
-7. click Add Drive.
+5. After Providing Account name and keys.
+6. Click Test after successful connection.
+7. Click Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
 #### **3. Google Storage Configuration with Augmatrix.io Platform**
 
-1. Visit the Data Store page.
-2. Click on "Mount New Drive."
-3. Select Google Cloud as Drive
-4. Provide any name for the drive.
+1. Go to Augmatrix platform.
+2. Visit the Data Store page.
+3. Click on "Mount New Drive."
+4. Select Google Cloud as Drive.
+5. Provide any name for the drive.
 
-**Steps-to-Follow Inside Google Cloud**
+**Steps-to-Follow Inside Google Cloud:**
 
 * Enter the account key obtained from the Google Cloud console.
   1. Create a bucket in Storage Management on Google Cloud.
   2. Grant READ and WRITE permissions.
   3. Generate an API key in the [Google Cloud console](https://cloud.google.com/docs/authentication/api-keys) and paste it into the Augmatrix.io platform.
 
-5. After Providing Bucket name and Keys
-6. click Test after successful connection
+5. After Providing Bucket name and keys.
+6. Click Test after successful connection.
 7. click Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 

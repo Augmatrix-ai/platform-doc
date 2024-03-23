@@ -1,6 +1,6 @@
 # Flow
 
-### Flow-page Overview
+w-page Overview
 
 The Flow-page serves as a canvas where you can construct workflows by connecting pre-built blocks. Here's a breakdown of the key elements and functionalities:
 
@@ -39,36 +39,38 @@ Move blocks from the Component store to the workspace with ease. It's all about 
 
 
 
-Connecting Blocks: The Right Fit\
-1\. **Correct Connection**: ensure the data types align for a perfect fit.
+2.  Connecting Blocks: The Right Fit
 
-<figure><img src=".gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+    * &#x20;**Correct Connection**: ensure the data types align for a perfect fit.
 
-2\. Incorrect connection: this means you've connected but issue with data type mismatch
 
-<figure><img src=".gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Dive into Block Data
+    <figure><img src=".gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Observe the block you're able to understand the data type ,if you hover into the connection or node point you're able to see the variables.
+    * Incorrect connection: this means you've connected but issue with data type mismatch
 
-2. Editor menu: This menu various Functionalities here all the list.
+
+
+    <figure><img src=".gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
+3. Dive into Block Data
+   * Observe the block you're able to understand the data type ,if you hover into the connection or node point you're able to see the variables.
+4. Editor menu: This menu various Functionalities here all the list.
 
 <figure><img src=".gitbook/assets/console.png" alt=""><figcaption></figcaption></figure>
 
-1. **Save**: Preserve created components for future modification or processing
-2. **Run** : Run individual blocks one-by-one to perform specific functions.
-3. **Undo**: Reverse the last user action in case of mistakes or changes of mind.
-4. **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
-5. Notification:  it contains product updates, Workflow Notifications and etc.&#x20;
-6. Menu:  In this menu you can see these options.
-   1. **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
-   2. **Zoom In**: Enlarge workflow for focusing on specific details.
-   3. **Fit**: Adjust workflow to fit within the visible or reset to original size.
-   4. **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
-   5. **Deploy**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
-   6. **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes
-   7. **Console**: The Console lets you see the activity logs of each block in your workflow. This helps you track what each block is doing and if there are any issues.
+* **Save**: Preserve created components for future modification or processing
+* **Run** : Run individual blocks one-by-one to perform specific functions.
+* **Undo**: Reverse the last user action in case of mistakes or changes of mind.
+* **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
+* Notification:  it contains product updates, Workflow Notifications and etc.&#x20;
+* Menu:  In this menu you can see these options.
+  1. **Run All**: Execute all functions sequentially after configuring block properties and inputs without interruption.
+  2. **Zoom In**: Enlarge workflow for focusing on specific details.
+  3. **Fit**: Adjust workflow to fit within the visible or reset to original size.
+  4. **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
+  5. **Deploy**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
+  6. **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes
+  7. **Console**: The Console lets you see the activity logs of each block in your workflow. This helps you track what each block is doing and if there are any issues.
 
 ### Example Use Case: Customer Email Understanding
 
@@ -148,7 +150,7 @@ Moreover, we'll showcase how this flow can be adapted for extracting Aadhaar car
 <figure><img src=".gitbook/assets/panflow (1).webp" alt=""><figcaption></figcaption></figure>
 
 1. **Input Configuration:** Begin by configuring the dataset you wish to process and execute the respective block.
-   1. select Dataset, Here Pan card is our dataset
+   1. Select Dataset, Here Pan card is our dataset
 
 <figure><img src=".gitbook/assets/paninput (1).webp" alt=""><figcaption></figcaption></figure>
 
