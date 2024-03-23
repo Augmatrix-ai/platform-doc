@@ -42,19 +42,13 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 
 <figure><img src=".gitbook/assets/image (2).png" alt="" width="205"><figcaption></figcaption></figure>
 
-
-
 2.  **Connecting Blocks:** The Right Fit
 
     * &#x20;Correct Connection: ensure the data types align for a perfect fit.
 
-
-
     <figure><img src=".gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
     * Incorrect connection: this means you've connected but issue with data type mismatch
-
-
 
     <figure><img src=".gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
 3. **Dive into Block Data**
@@ -148,7 +142,7 @@ By following these steps, you'll effectively set up and run the email understand
 
 ### Pan-card Extraction Use-case
 
-In this example, we'll delve into the intricacies of the Pan Card extraction process. We'll elucidate each step of the workflow, detailing the configurations of individual blocks and the final output.
+In this example, we'll delve into the intricacies of the Pan Card extraction process. We'll explain each step of the workflow, detailing the configurations of individual blocks and the final output.
 
 Moreover, we'll showcase how this flow can be adapted for extracting Aadhaar cards or similar documents.
 
