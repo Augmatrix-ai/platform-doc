@@ -1,6 +1,6 @@
 # Flow
 
-w-page Overview
+Flow-page Overview
 
 The Flow-page serves as a canvas where you can construct workflows by connecting pre-built blocks. Here's a breakdown of the key elements and functionalities:
 
@@ -15,31 +15,36 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 
 ### Crafting Your Workflow: A Step-by-Step Guide
 
-#### The Art of Drag and Drop
+1. The Art of Drag and Drop
+   * Move blocks from the Component store to the workspace with ease. It's all about matching the right components, like fitting puzzle pieces together based on their data types.
+2.  Understanding Block Statuses:
 
-Move blocks from the Component store to the workspace with ease. It's all about matching the right components, like fitting puzzle pieces together based on their data types.
+    * &#x20;**Configuration Errors**: Think of these as alerts that something's not quite right with your setup.
 
-#### Understanding Block Statuses
 
-1. Block status and Error:
-   * **Configuration Errors**: Think of these as alerts that something's not quite right with your setup.
 
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="205"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1).png" alt="" width="205"><figcaption></figcaption></figure>
 
-* &#x20;**Runtime Warning** : These indicate issues within your data, but don't worry, not all is lost—some parts can still proceed.
+    * **Runtime Warning** : These indicate issues within your data, but don't worry, not all is lost—some parts can still proceed.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="205"><figcaption></figcaption></figure>
 
-*   Runtime error: These indicate, the block ran without data.
+
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="205"><figcaption></figcaption></figure>
+
+    * **Runtime error**: These indicate, the block ran without data and correct Configurations.
 
     <figure><img src=".gitbook/assets/image.png" alt="" width="205"><figcaption></figcaption></figure>
-* &#x20;**Success Indicators**: this indicates Your block is correctly configured, and your data is flowing smoothly.
+
+    &#x20;
+
+    * **Success Indicators**: This indicates Your block is correctly configured, and your data is  \
+      flowing smoothly.
 
 <figure><img src=".gitbook/assets/image (2).png" alt="" width="205"><figcaption></figcaption></figure>
 
 
 
-2.  Connecting Blocks: The Right Fit
+2.  **Connecting Blocks:** The Right Fit
 
     * &#x20;**Correct Connection**: ensure the data types align for a perfect fit.
 
