@@ -22,7 +22,7 @@ Below are step-by-step configurations for each cloud storage option:
 
 1. Go to Augmatrix platform.&#x20;
 2. Go to the Data Store page.
-3. Click on "Mount New Drive."
+3. Click on "Mount New Drive".
 4. Select "Amazon S3" as drive.
 5. Provide any name for the drive.
 
@@ -46,13 +46,13 @@ Below are step-by-step configurations for each cloud storage option:
 ```
 
 5. After Providing Required details.&#x20;
-6. Click on Test after successful connection
+6. Click on Test after successful connection.
 7. Click  on Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
 #### **2. Let's configure Azure Blob Storage with Augmatrix**
 
-1. go the Augmatrix platform.
+1. Go the Augmatrix platform.
 2. Navigate to the Data Store page.
 3. Click on "Mount New Drive."
 4. Select  "Azure" as drive.
@@ -77,7 +77,7 @@ Below are step-by-step configurations for each cloud storage option:
 
 1. Go to Augmatrix platform.
 2. Visit the Data Store page.
-3. Click on "Mount New Drive."
+3. Click on "Mount New Drive"'
 4. Select Google Cloud as Drive.
 5. Provide any name for the drive.
 
@@ -90,7 +90,7 @@ Below are step-by-step configurations for each cloud storage option:
 
 5. After Providing Bucket name and keys.
 6. Click Test after successful connection.
-7. click Add Drive.
+7. Click Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
 Follow these steps carefully to ensure seamless integration and secure handling of your data. For detailed instructions on creating buckets and obtaining keys, refer to the provided links.
