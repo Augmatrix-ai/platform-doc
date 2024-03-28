@@ -83,9 +83,9 @@ Next step adding Another addition block to the Same flow&#x20;
 
 <figure><img src=".gitbook/assets/emailoutput.webp" alt=""><figcaption></figcaption></figure>
 
-11. Go to the annotation Studio, and label the email based on the context&#x20;
-    1. click on save annotation
-    2. give a name and select text-classification pipeline
-    3. click on save&#x20;
+11. **Annotating and Saving Your Data:**
+    1. Once the run is complete, go to the annotation studio.
+    2. Label the emails based on their content and context.
+    3. Save your annotation by giving it a name and selecting the text-classification pipeline.
 
 By following these steps, you'll effectively set up and run the email understanding workflow.
