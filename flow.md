@@ -2,7 +2,7 @@
 
 Flow-page Overview
 
-The Flow-page serves as a canvas where you can construct workflows by connecting pre-built blocks. Here's a breakdown of the key elements and functionalities:
+The Flow-page serves as a canvas where you can construct workflows by connecting pre-built blocks. Here's a breakdown of the key elements and functionalities.
 
 ### Components
 
@@ -10,7 +10,7 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 
 * **Workspace**: This is where you drag and drop components from the component menu. Configure inputs using the editor menu and save or start the process of the block here.
 * **Component Menu**: Pre-built blocks are listed here for selection.
-* **Marketplace** : Download components from marketplace to the component menu .
+* **Marketplace** : Download components from marketplace to the component menu.
 * **Editor Menu**: Make changes to the workspace as per your requirements.
 
 ### Crafting Your Workflow: A Step-by-Step Guide
@@ -57,7 +57,7 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 
 <figure><img src=".gitbook/assets/console.png" alt=""><figcaption></figcaption></figure>
 
-* **Save**: Preserve created components for future modification or processing
+* **Save**: Preserve created components for future modification or processing.
 * **Run** : Run individual blocks one-by-one to perform specific functions.
 * **Undo**: Reverse the last user action in case of mistakes or changes of mind.
 * **Lock**: Restrict block movement in the workspace by locking components; unlock to enable movement.
@@ -68,7 +68,7 @@ The Flow-page serves as a canvas where you can construct workflows by connecting
 * **Fit**: Adjust workflow to fit within the visible or reset to original size.
 * **Zoom Out**: Reduce the size of displayed content to see more on the screen at once.
 * **Deploy**: When ready to take use cases live, deploy seamlessly using various modes (scheduled, Web Endpoint, or Event Driven).
-* **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes
+* **Redo**: Repeat the last undone action, useful for correcting mistakes or reapplying changes.
 * **Console**: The Console lets you see the activity logs of each block in your workflow. This helps you track what each block is doing and if there are any issues.
 
 ### Example Use Case: Customer Email Understanding
@@ -102,22 +102,22 @@ sample data
 
 7. **Configure Inputs**:\
    1\. Use the editor menu to configure data for the input block. \
-   2\.  Select dataset of Email \
+   2\.  Select dataset of Email.\
 
 
 <figure><img src=".gitbook/assets/emailinput.webp" alt=""><figcaption></figcaption></figure>
 
 8. **Connect Blocks**:\
    1\. Connect input block to the GPT-extractor block.\
-   2\. Drag a line between one block node to another block node to make connection
+   2\. Drag a line between one block node to another block node to make connection.
 9. Configure GPT Extraction Block:\
-   1\. Fill the Details of instruct with this code&#x20;
+   1\. Fill the Details of instruct with this code.
 
 <pre><code><strong>Extract Transaction ID, Amount, and Translate to English from the givenRextInput.
 </strong>Fill the data extracted to outputJsonFormat, map corresponding value with respect to key of json.
 </code></pre>
 
-&#x20;    2\. Fill the Details of another code block with Output JSON to extract the Information
+&#x20;    2\. Fill the Details of another code block with Output JSON to extract the Information.
 
 ```
 {
@@ -149,19 +149,19 @@ Moreover, we'll showcase how this flow can be adapted for extracting Aadhaar car
 <figure><img src=".gitbook/assets/panflow (1).webp" alt=""><figcaption></figcaption></figure>
 
 1. **Input Configuration:** Begin by configuring the dataset you wish to process and execute the respective block.
-   1. Select Dataset, Here Pan card is our dataset
+   1. Select Dataset, Here Pan card is our dataset.
 
 <figure><img src=".gitbook/assets/paninput (1).webp" alt=""><figcaption></figcaption></figure>
 
 2. **OCR (Optical Character Recognition) Block:** The OCR block extracts data from images provided by the input block. It outputs the extracted data in both JSON and text formats.
    1. Select the OCR engine to process, we've multiple, but you've to select at least one.
-   2. We've selected Google OCR
+   2. We've selected Google OCR.
 
 <figure><img src=".gitbook/assets/ocr.webp" alt=""><figcaption></figcaption></figure>
 
 3. **Rotate Block:** This block adjusts the angle of the card to ensure proper alignment for processing. It takes an image and OCR JSON as input to correct the orientation.
-   1. Rotate orientation must be select in the block level,&#x20;
-   2. Select Auto
+   1. Rotate orientation must be select in the block level.
+   2. Select Auto.
 
 <figure><img src=".gitbook/assets/panrotate.webp" alt=""><figcaption></figcaption></figure>
 
@@ -173,7 +173,7 @@ Moreover, we'll showcase how this flow can be adapted for extracting Aadhaar car
 Here we've provided one sample reference image to extract
 
 5. **OCR (Constant Block):** Similar to the OCR block, this component processes the reference image provided by the Constant Block and produces JSON and text outputs.
-   1. Same as top OCR, we've selected Google OCR
+   1. Same as top OCR, we've selected Google OCR.
 
 <figure><img src=".gitbook/assets/COnstatnocr.webp" alt=""><figcaption></figcaption></figure>
 
@@ -183,7 +183,7 @@ Here we've provided one sample reference image to extract
 
 6. **Alignment Block:** Utilizing the data from the Constant Block, this component aligns the information extracted from input cards with the standard reference.
 7. **Annotation Block:** Primarily used for labelling data, the Annotation Block annotates the extracted information and facilitates the extraction of labelled data.
-   1. Here the data labelling will happen for this one we need to label studio code here is the sample code
+   1. Here the data labelling will happen for this one we need to label studio code here is the sample code.
 
 ```
 <View>

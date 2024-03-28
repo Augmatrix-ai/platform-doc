@@ -8,13 +8,13 @@ During model training, datasets often require annotations to effectively train m
 
 The annotation process seamlessly integrates into task-based workflows or model training processes. Currently, we support the following pipelines:
 
-* Text-classification Pipeline Annotation
-* Object-detection Pipeline Annotation
-* Text-Generation Pipeline Annotation
+* Text-classification Pipeline Annotation.
+* Object-detection Pipeline Annotation.
+* Text-Generation Pipeline Annotation.
 
 This ensures that annotations are specifically tailored to the unique requirements of each task.
 
-#### Example: Annotating a Sample Email
+#### Example: Annotating a Sample Email:
 
 In this example, we'll walk through annotating an email. Here are the steps to follow:
 
