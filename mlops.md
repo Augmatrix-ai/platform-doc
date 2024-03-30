@@ -28,11 +28,11 @@ Deploying machine learning models is crucial for making them accessible and usab
 
 #### **User-Friendly Deployment Options**:
 
-* **Cluster Configuration**: \
+* **Cluster Configuration**:\
   Configure computational resources.
-* **Computation Type**: \
+* **Computation Type**:\
   Choose between CPU or GPU.
-* **Computation Size Selection**: \
+* **Computation Size Selection**:\
   Dynamically select computational size.
 * **POD Size Selection**: Flexibility with a range of pod sizes.
 
@@ -47,16 +47,3 @@ Deploying machine learning models is crucial for making them accessible and usab
 #### **Deployment Process Summary**:
 
 The deployment process concludes with assigning an endpoint, integrated seamlessly into workflows, ensuring security and adaptability.
-
-### **Example Deployment**:
-
-1. Trained Model-deployment
-   1. Access the Model Catalogue.
-   2. Select a trained model and click deploy.
-   3. Proceed to the deployment page.
-   4. Create infrastructure with given options.
-   5. Select cloud, processor type, and size.
-   6. Specify pod details, scalability type, and endpoint selection.
-   7. Click deploy to obtain the endpoint.
-
-With these steps, scalable deployment with an endpoint is achieved, ready to integrate within or outside the platform.
