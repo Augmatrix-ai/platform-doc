@@ -2,19 +2,20 @@
 
 ## Data Privacy and Security
 
-At Augmatrix.io, we prioritize data privacy and security, ensuring a safe environment for both the platform and its users. Here's how we maintain the highest level of security and privacy.
+At Augmatrix.io, we prioritize data privacy and security, ensuring a safe environment. Here's how we maintain security and privacy.
 
 1. Bring your Own Datastore.
 2. Audit logs.
-3. Credential vault.
+3. Credential vault
 
 ### **1. Bring Your Own Datastore:**
 
-We provide users with the flexibility to configure your own cloud storage, ensuring data security without the risk of leakage. Users can either test sample datasets with Augmatrix.io's default datastore or configure your preferred cloud storage solution. We support various cloud storage capabilities, including.
+We provide users with the flexibility to configure your own cloud storage, ensuring data security without the risk of leakage. Users can either test sample datasets with Augmatrix.io's default datastore or configure your preferred cloud storage. We support various cloud storage capabilities, including.
 
 * **Amazon S3.**
 * **Azure Blob Storage.**
 * **Google Cloud Bucket.**
+* **Including other cloud storages can be configured on the  requested based**
 
 Below are step-by-step configurations for each cloud storage option:
 
@@ -66,7 +67,7 @@ Below are step-by-step configurations for each cloud storage option:
 * Inside the storage account, create a container.
 * Obtain the account name and key from the Azure portal for Augmatrix platform.
 
-<figure><img src=".gitbook/assets/att_4_for_16384134.png" alt=""><figcaption><p>Azure images</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Untitled design (3).jpg" alt=""><figcaption><p>Azure images</p></figcaption></figure>
 
 5. After Providing Account name and keys.
 6. Click Test after successful connection.
@@ -103,6 +104,6 @@ Audit logs will help to understand the events or actions that are captured and s
 
 ### 3. Credential Vault
 
-Credential vault keeps your important information like passwords and keys safe. It uses strong security methods to protect your data. Only people or apps that are allowed can get to it. This vault makes it easier to handle and keep your sensitive info secure, giving you less to worry about.&#x20;
+Credential vault keeps your important information like credentials, and keys. It uses strong security methods to protect your data.  The above cloud configuration keys can also be stored in this credential vault.&#x20;
 
 Our credential vault is a secure storage system that is used to manage sensitive information such as passwords, API keys, certificates, and other secrets.

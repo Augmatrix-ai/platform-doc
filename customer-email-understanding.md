@@ -1,4 +1,4 @@
-# Use case 2
+# Customer Email Understanding
 
 ### Customer Email Understanding
 
@@ -18,12 +18,12 @@ sample data
 2. **Enter Project**: Access the project.
 3. **Open Component Store**:\
    Open the component store.
-4. **Download Blocks**:\
-   Download input, GPT-Extractor block and Zero-shot Classification blocks.&#x20;
+4. **Download Components**:\
+   Download input, GPT-Extractor block and Zero-shot Classification components.&#x20;
 5. **Access Component Menu**:\
    Navigate to the component menu.
 6. **Drag and Drop**:\
-   Drag and drop blocks to the workspace.
+   Drag and drop components to the workspace.
 
 
 
@@ -36,7 +36,7 @@ sample data
 
 <figure><img src=".gitbook/assets/emailinput (1).webp" alt=""><figcaption></figcaption></figure>
 
-8. **Connect Blocks**:\
+8. **Connect Components:**\
    1\. Connect input block to the GPT-extractor block.\
    2\. Drag a line between one block node to another block node to make connection.
 9. **Configure GPT Extraction Block:**\

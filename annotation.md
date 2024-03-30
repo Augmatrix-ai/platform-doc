@@ -20,8 +20,8 @@ In this example, we'll walk through annotating an email. Here are the steps to f
 
 1. **Custom Email Understanding Flow**:
    * Incorporate the email into a custom email understanding flow.
-2. **Add Annotation Block to Component Menu**:
-   * Add an annotation block to the component menu.
+2. **Add Annotation Component to Component Menu**:
+   * Add an annotation Component to the component menu.
 3. **Provide Label Studio Sample Code in the Editor Menu**:
    * Include the Label Studio sample code in the editor menu:
 
@@ -37,10 +37,10 @@ In this example, we'll walk through annotating an email. Here are the steps to f
 </View>
 ```
 
-4. **Connect Input Block and Annotation Block and Run Block**:
-   * Connect the input block, annotation block, and run block.
-5. **Open Output of Annotation Block**:
-   * Open the output page of the annotation block.
+4. **Connect Input Component and Annotation Component and Run  the Component**:
+   * Connect the input Component annotation Component, and run  the Component.
+5. **Open Output of Annotation Component:**
+   * Open the output page of the annotation Component.
 6. **Label the Data with Appropriate Labels**:
    * Label the data with the appropriate labels.
 7. **Save the Annotation with Respect to Text-classification Pipeline**:

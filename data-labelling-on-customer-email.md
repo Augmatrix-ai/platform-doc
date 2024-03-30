@@ -2,7 +2,7 @@
 
 ### Advanced Customer Email Understanding
 
-From above use-case 2 you have learnt about customer email understanding on the basis of sentiment and summary, In this scenario, we're implementing a custom text classification block for understanding customer emails based on sentiment and summary. The process involves data preparation, model training, deployment, and endpoint integration.
+From above use-case 2 you have learnt about customer email understanding on the basis of sentiment and summary, In this scenario, we're implementing a custom text classification components for understanding customer emails based on sentiment and summary. The process involves data preparation, model training, deployment, and endpoint integration.
 
 For this process we'll use old flow which is used in use-case&#x20;
 
@@ -11,37 +11,37 @@ For this process we'll use old flow which is used in use-case&#x20;
 3. Click on Duplicate
 4. click on the duplicated project and click rename&#x20;
 
-Next step adding Another addition block to the Same flow&#x20;
+Next step adding Another addition Component to the Same flow&#x20;
 
-1. **Download Block**:\
-   Download Annotation block for Data preparation
+1. **Download Component**:\
+   Download Annotation component for Data preparation
 2. **Access Component Menu**:\
    Navigate to the component menu.
 3. **Drag and Drop**:\
-   Drag and drop blocks to the workspace.
+   Drag and drop components to the workspace.
 
 
 
 <figure><img src=".gitbook/assets/emailflow.webp" alt=""><figcaption></figcaption></figure>
 
 7. **Configure Inputs**:\
-   1\. Use the editor menu to configure data for the input block. \
+   1\. Use the editor menu to configure data for the input Component. \
    2\.  Select dataset of Email.\
 
 
 <figure><img src=".gitbook/assets/emailinput (1).webp" alt=""><figcaption></figcaption></figure>
 
-8. **Connect Blocks**:\
-   1\. Connect input block to the GPT-extractor block.\
-   2\. Drag a line between one block node to another block node to make connection.
-9. **Configure GPT Extraction Block:**\
+8. **Connect Components:**\
+   1\. Connect the input Component to the GPT-extractor component.\
+   2\. Drag a line between one Component node to another component node to make connection.
+9. **Configure GPT Extraction Component:**\
    1\. Fill the Details of instruct with this code.
 
 <pre><code><strong>Extract Transaction ID, Amount, and Translate to English from the givenRextInput.
 </strong>Fill the data extracted to outputJsonFormat, map corresponding value with respect to key of json.
 </code></pre>
 
-&#x20;    2\. Fill the Details of another code block with Output JSON to extract the Information.
+&#x20;    2\. Fill the Details of another code component  with Output JSON to extract the Information.
 
 ```
 {
@@ -51,15 +51,15 @@ Next step adding Another addition block to the Same flow&#x20;
 }
 ```
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-9. **Configure Zero-Shot Classification Block:**
-   1. Configure the block with different labels to understand the emails
+9. **Configure Zero-Shot Classification Component:**
+   1. Configure the component  with different labels to understand the emails
    2. labels are likely to be payment, delivery, food menu, coupons.&#x20;
 
 <figure><img src=".gitbook/assets/emailzero (1).webp" alt=""><figcaption></figcaption></figure>
 
-10. **Configure Annotation Block**
+10. **Configure Annotation Component:**
     1. add Labelstudio code to fix the labels
 
 ```json
@@ -79,7 +79,7 @@ Next step adding Another addition block to the Same flow&#x20;
 10. **Run All**:
     1. Click Run-All program to start the flow running sequentially.
 11. **Checkout the Outputs**:
-    1. Checkout the Output of Every block and understand the Block and Outputs
+    1. Checkout the Output of Every Component and understand the Component Outputs
 
 
 
@@ -89,13 +89,13 @@ Next step adding Another addition block to the Same flow&#x20;
 
 ### **Annotating and Saving Your Data**
 
-#### Step 1: Access the Annotation Block
+#### Step 1: Access the Annotation Component
 
-* After completing your data processing run, navigate to the annotation block in your application interface.
+* After completing your data processing run, navigate to the annotation Component  in your application interface.
 
 #### Step 2: Annotate Emails
 
-* Review the outputs displayed in the annotation block.
+* Review the outputs displayed in the annotation Component.
 * Label the emails by considering their content and context. The application provides several label options for categorization.
 
 #### Step 3: Save Your Annotations
@@ -165,34 +165,34 @@ Next step adding Another addition block to the Same flow&#x20;
 **Step 2: Download Component**
 
 1. Within the workflow interface, locate the **Component menu**.
-2. Search for and download the **text-classification block** suitable for email categorization or sentiment analysis.
+2. Search for and download the **text-classification component** suitable for email categorization or sentiment analysis.
 
 **Step 3: Add Component to Workspace**
 
-1. Use the **drag and drop** functionality to add the text-classification block to your workflow workspace.
-2. This block is essential for classifying the content of emails based on predefined categories.
+1. Use the **drag and drop** functionality to add the text-classification Component to your workflow workspace.
+2. This component  is essential for classifying the content of emails based on predefined categories.
 
 **Step 4: Connect Components**
 
-1. Establish a connection from the **Input block** (your email data source) to the newly added **text-classification block**.
+1. Establish a connection from the **Input component** (your email data source) to the newly added **text-classification component**.
 2. This ensures that emails will be automatically fed into the text-classification model for analysis.
 
-**Step 5: Configure Text-Classification Block**
+**Step 5: Configure Text-Classification Component**
 
-1. Select the text-classification block within your workflow.
+1. Select the text-classification component within your workflow.
 2. Configure it by inputting the **Deployed Endpoint** URL of your custom-trained model.
-3. This step is crucial for the block to know where to send the email content for classification.
+3. This step is crucial for the component to know where to send the email content for classification.
 
 <figure><img src=".gitbook/assets/emailtext.svg" alt=""><figcaption></figcaption></figure>
 
 **Step 6: Run the Workflow**
 
-1. Click on the **RUN block** to initiate the workflow.
+1. Click on the **RUN Component** to initiate the workflow.
 2. This process will classify emails according to the model's training, applying labels or categories as configured.
 
 **Step 7: Review Output**
 
-1. After the workflow completes, inspect the **Output** from the text-classification block.
+1. After the workflow completes, inspect the **Output** from the text-classification Component.
 2. The output will display the classification results for each email, which can be used for further analysis or routing emails based on their content.
 
 By following these steps, you'll successfully integrate a custom text-classification model into your email understanding workflow, enhancing its capability to automatically categorize and understand email content more effectively.
