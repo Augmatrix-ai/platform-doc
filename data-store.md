@@ -19,7 +19,7 @@ We provide users with the flexibility to configure your own cloud storage, ensur
 
 Below are step-by-step configurations for each cloud storage option:
 
-#### **1. Let's Configure Amazon S3 with Augmatrix**&#x20;
+#### **1. Let's Configure Amazon S3 In Augmatrix**&#x20;
 
 1. Go to Augmatrix platform.&#x20;
 2. Go to the Data Store page.
@@ -51,7 +51,7 @@ Below are step-by-step configurations for each cloud storage option:
 7. Click  on Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
-#### **2. Let's configure Azure Blob Storage with Augmatrix**
+#### **2. Let's configure Azure Blob Storage In Augmatrix**
 
 1. Go the Augmatrix platform.
 2. Navigate to the Data Store page.
@@ -74,7 +74,7 @@ Below are step-by-step configurations for each cloud storage option:
 7. Click Add Drive.
 8. Drive is ready to upload dataset.&#x20;
 
-#### **3. Google Storage Configuration with Augmatrix.io Platform**
+#### **3. Google Storage Configuration In  Augmatrix**
 
 1. Go to Augmatrix platform.
 2. Visit the Data Store page.

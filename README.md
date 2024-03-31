@@ -23,14 +23,14 @@ Join our expanding developer community for platform updates and collaborations. 
 
 <figure><img src=".gitbook/assets/HOME.png" alt=""><figcaption></figcaption></figure>
 
-Home:
+Home: This page contains Basic Introduction to the platform, documentation and tutorial to the platform.&#x20;
 
-Dataset:
+Dataset: This page is to upload your data in zip format which may contains, Text, PDF, Images, Audio, Videos.&#x20;
 
-Apps:
+Apps: This page where you can create projects to automate the workflow with help of pre-built components and customized components.&#x20;
 
-Annotation Store:
+Annotation Store: Annotation store, which stores the annotated data or Labelled data.
 
-Model Hub:
+Model Hub: It contains Model explorer, Deployed Models, OS model Explorer And Some Tested LLM's are available in the model Hub&#x20;
 
-Market Place:&#x20;
+Market Place:  These marketplaces contain Published Workflows to test and Try,and Components to Download to the Workflows&#x20;
