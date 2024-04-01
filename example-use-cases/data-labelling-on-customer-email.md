@@ -51,13 +51,13 @@ Next step adding Another addition Component to the Same flow&#x20;
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 9. **Configure Zero-Shot Classification Component:**
    1. Configure the component  with different labels to understand the emails
    2. labels are likely to be payment, delivery, food menu, coupons.&#x20;
 
-<figure><img src="../.gitbook/assets/emailzero (1).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailzero (2).webp" alt=""><figcaption></figcaption></figure>
 
 10. **Configure Annotation Component:**
     1. add Labelstudio code to fix the labels
@@ -74,7 +74,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 </View>
 ```
 
-<figure><img src="../.gitbook/assets/emailannotation.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailannotation (1).webp" alt=""><figcaption></figcaption></figure>
 
 10. **Run All**:
     1. Click Run-All program to start the flow running sequentially.
@@ -98,7 +98,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 * Review the outputs displayed in the annotation Component.
 * Label the emails by considering their content and context. The application provides several label options for categorization.
 
-<figure><img src="../.gitbook/assets/annotationemail (2).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Save Your Annotations
 
@@ -126,7 +126,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 2. Assign a unique name to your model to distinguish it from others.
 3. Select the dataset you annotated earlier for training.
 
-<figure><img src="../.gitbook/assets/modeltraining.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Start Training in Google Colab
 

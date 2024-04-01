@@ -12,6 +12,8 @@ At Augmatrix.io, we prioritize data privacy and security, ensuring a safe enviro
 
 We provide users with the flexibility to configure your own cloud storage, ensuring data security without the risk of leakage. Users can either test sample datasets with Augmatrix.io's default datastore or configure your preferred cloud storage. We support various cloud storage capabilities, including.
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 * **Amazon S3.**
 * **Azure Blob Storage.**
 * **Google Cloud Bucket.**
