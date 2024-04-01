@@ -22,14 +22,14 @@ Next step adding Another addition Component to the Same flow&#x20;
 
 
 
-<figure><img src=".gitbook/assets/emailflow.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailflow.webp" alt=""><figcaption></figcaption></figure>
 
 7. **Configure Inputs**:\
    1\. Use the editor menu to configure data for the input Component. \
    2\.  Select dataset of Email.\
 
 
-<figure><img src=".gitbook/assets/emailinput (1).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailinput (1).webp" alt=""><figcaption></figcaption></figure>
 
 8. **Connect Components:**\
    1\. Connect the input Component to the GPT-extractor component.\
@@ -51,13 +51,13 @@ Next step adding Another addition Component to the Same flow&#x20;
 }
 ```
 
-<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 9. **Configure Zero-Shot Classification Component:**
    1. Configure the component  with different labels to understand the emails
    2. labels are likely to be payment, delivery, food menu, coupons.&#x20;
 
-<figure><img src=".gitbook/assets/emailzero (1).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailzero (1).webp" alt=""><figcaption></figcaption></figure>
 
 10. **Configure Annotation Component:**
     1. add Labelstudio code to fix the labels
@@ -74,7 +74,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 </View>
 ```
 
-<figure><img src=".gitbook/assets/emailannotation.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailannotation.webp" alt=""><figcaption></figcaption></figure>
 
 10. **Run All**:
     1. Click Run-All program to start the flow running sequentially.
@@ -83,7 +83,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 
 
 
-<figure><img src=".gitbook/assets/emailoutput.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailoutput.webp" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -98,7 +98,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 * Review the outputs displayed in the annotation Component.
 * Label the emails by considering their content and context. The application provides several label options for categorization.
 
-<figure><img src=".gitbook/assets/annotationemail (2).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/annotationemail (2).webp" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Save Your Annotations
 
@@ -111,14 +111,14 @@ Next step adding Another addition Component to the Same flow&#x20;
 
 1. Visit the Augmatrix Model Hub to start the process of training a new model.
 
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: Use the Model Explorer
 
 1. Within the Model Hub, navigate to the Model Explorer section.
 2. Apply a filter to see only the "Text Classification Pipeline" options.
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Prepare for Training
 
@@ -126,7 +126,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 2. Assign a unique name to your model to distinguish it from others.
 3. Select the dataset you annotated earlier for training.
 
-<figure><img src=".gitbook/assets/modeltraining.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/modeltraining.webp" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Start Training in Google Colab
 
@@ -152,7 +152,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 2. **Computation Type:** Select between GPU and CPU based on your model's requirements.
 3. **Cloud Service Options:** Decide if you prefer User Managed or Augmatrix Managed cloud services.
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 1. **POD Size:** Specify the size of the POD to match the scale of your deployment.
 2. **Number of POD's:** Determine the number of POD's you need for your application.
@@ -161,7 +161,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 5. **Maximum Number of POD's:** Define the maximum number of POD's to control resource usage.
 6. **Endpoint Type:** Decide if your endpoint will be Public or Private according to your security and accessibility needs.
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Deploy Your Model
 
@@ -196,7 +196,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 2. Configure it by inputting the **Deployed Endpoint** URL of your custom-trained model.
 3. This step is crucial for the component to know where to send the email content for classification.
 
-<figure><img src=".gitbook/assets/emailtext.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailtext.svg" alt=""><figcaption></figcaption></figure>
 
 **Step 6: Run the Workflow**
 

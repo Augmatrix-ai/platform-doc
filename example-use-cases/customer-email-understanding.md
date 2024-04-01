@@ -27,14 +27,14 @@ sample data
 
 
 
-<figure><img src=".gitbook/assets/emailflow.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailflow.webp" alt=""><figcaption></figcaption></figure>
 
 7. **Configure Inputs**:\
    1\. Use the editor menu to configure data for the input block. \
    2\.  Select dataset of Email.\
 
 
-<figure><img src=".gitbook/assets/emailinput (1).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailinput (1).webp" alt=""><figcaption></figcaption></figure>
 
 8. **Connect Components:**\
    1\. Connect input block to the GPT-extractor block.\
@@ -56,13 +56,13 @@ sample data
 }
 ```
 
-<figure><img src=".gitbook/assets/emailgpt.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailgpt.webp" alt=""><figcaption></figcaption></figure>
 
 9. **Configure Zero-Shot Classification Block:**
    1. Configure the block with different labels to understand the emails
    2. labels are likely to be payment, delivery, food menu, coupons.&#x20;
 
-<figure><img src=".gitbook/assets/emailzero.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailzero.webp" alt=""><figcaption></figcaption></figure>
 
 10. **Run All**:
     1. Click Run-All program to start the flow running sequentially.
@@ -71,6 +71,6 @@ sample data
 
 
 
-<figure><img src=".gitbook/assets/emailoutput.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emailoutput.webp" alt=""><figcaption></figcaption></figure>
 
 By following these steps, you'll effectively set up and run the email understanding workflow.
