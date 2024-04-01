@@ -51,7 +51,7 @@ Next step adding Another addition Component to the Same flow&#x20;
 }
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 9. **Configure Zero-Shot Classification Component:**
    1. Configure the component  with different labels to understand the emails
