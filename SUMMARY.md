@@ -9,3 +9,4 @@
 * [Customer Email Understanding](customer-email-understanding.md)
 * [Data Labelling On Customer Email](data-labelling-on-customer-email.md)
 * [KYC Extraction Use case](kyc-extraction-use-case.md)
+* [Custom Component Deployment](custom-component-deployment.md)
