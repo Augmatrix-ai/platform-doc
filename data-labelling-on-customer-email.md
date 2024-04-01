@@ -98,27 +98,35 @@ Next step adding Another addition Component to the Same flow&#x20;
 * Review the outputs displayed in the annotation Component.
 * Label the emails by considering their content and context. The application provides several label options for categorization.
 
+<figure><img src=".gitbook/assets/annotationemail (2).webp" alt=""><figcaption></figcaption></figure>
+
 #### Step 3: Save Your Annotations
 
 * Name your annotated dataset for easy identification.
 * Ensure you select the "text-classification" pipeline before saving. This categorizes your data correctly for future processes.
 
-### **Custom Model Training with Custom Labeled Data**
+### **Custom Model Training with Custom Labelled Data**
 
 #### Step 1: Access Augmatrix Model Hub
 
 1. Visit the Augmatrix Model Hub to start the process of training a new model.
+
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: Use the Model Explorer
 
 1. Within the Model Hub, navigate to the Model Explorer section.
 2. Apply a filter to see only the "Text Classification Pipeline" options.
 
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
 #### Step 3: Prepare for Training
 
 1. Choose a model from the list that fits your needs.
 2. Assign a unique name to your model to distinguish it from others.
 3. Select the dataset you annotated earlier for training.
+
+<figure><img src=".gitbook/assets/modeltraining.webp" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Start Training in Google Colab
 
@@ -143,12 +151,17 @@ Next step adding Another addition Component to the Same flow&#x20;
 1. **Machine Size:** Choose the size of the machine that best suits your deployment needs.
 2. **Computation Type:** Select between GPU and CPU based on your model's requirements.
 3. **Cloud Service Options:** Decide if you prefer User Managed or Augmatrix Managed cloud services.
-4. **POD Size:** Specify the size of the POD to match the scale of your deployment.
-5. **Number of POD's:** Determine the number of POD's you need for your application.
-6. **Autoscaling Options:** Choose the autoscaling method, whether it's Request based or Usage based.
-7. **Minimum Number of POD's:** Set the minimum number of POD's to ensure your service remains available.
-8. **Maximum Number of POD's:** Define the maximum number of POD's to control resource usage.
-9. **Endpoint Type:** Decide if your endpoint will be Public or Private according to your security and accessibility needs.
+
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+1. **POD Size:** Specify the size of the POD to match the scale of your deployment.
+2. **Number of POD's:** Determine the number of POD's you need for your application.
+3. **Autoscaling Options:** Choose the autoscaling method, whether it's Request based or Usage based.
+4. **Minimum Number of POD's:** Set the minimum number of POD's to ensure your service remains available.
+5. **Maximum Number of POD's:** Define the maximum number of POD's to control resource usage.
+6. **Endpoint Type:** Decide if your endpoint will be Public or Private according to your security and accessibility needs.
+
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Deploy Your Model
 
