@@ -1,8 +1,8 @@
 # Platform Overview
 
-Welcome to Augmatrix.io, This page is your guide if you are new to our system.\
+Welcome to Augmatrix.io.\
 \
-Augmatrix.io simplifies AI use cases creation with a Low-code, serverless platform and visual designer, speeding up development from idea to launch. It enhances security, scalability, and Observability.&#x20;
+Augmatrix.io simplifies AI use cases creation with a Low-code, serverless platform and visual designer, speeding up development from idea to launch. Augmatrix enhances security, scalability, and Observability.&#x20;
 
 1. Customizable Use Cases:
    * Tailor your use-case to meet specific needs with pre-built building components, or create a custom component effortlessly using Augmatrix SDK.
