@@ -17,7 +17,7 @@ Augmatrix.io simplifies AI use cases creation with a Low-code, serverless platfo
 
 #### Community Engagement
 
-Join our expanding developer community for platform updates and collaborations. [**Join Our Community Here**](https://discord.gg/2puwZsB9)[ ](https://discord.gg/zF6PRy5Ayg)
+Join our expanding developer community for platform updates and collaborations. [**Join Our Community Here** ](https://discord.gg/fEFabAvPUV)
 
 ### **Platform Introduction**
 
